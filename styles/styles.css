@@ -7,6 +7,7 @@
 nav {
     background-color: steelblue;
     padding: 10px;
+    line-height: .01;
 }
 
 nav a {
@@ -25,10 +26,11 @@ h1 {
 
 aside {
 width: 20rem;
-border: 1px solid rbga(0, 0, 0, 0.2); 
+border: 1px solid rgba(0,0,0,.1); 
 background-color: #eee;
 color: #333;
 text-align: center;
+position: relative;
 }
 
 aside img {
