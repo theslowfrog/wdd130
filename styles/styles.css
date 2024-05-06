@@ -38,6 +38,10 @@ text-align: center;
 position: relative;
 }
 
+h2 {
+    position: absolute over;
+}
+
 aside img {
     width: 200px;
     height: auto;
