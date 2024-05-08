@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Roboto, Arial, sans-serif ;
+}
+
 p {
     padding-left: 20px;
 
@@ -22,11 +26,12 @@ nav a {
 }
 
 main {
-    max-width: 840px;
+    max-width: 640px;
 }
 
 h1 {
     color: steelblue;
+    padding: .5rem;
 }
 
 aside {
@@ -39,7 +44,9 @@ position: relative;
 }
 
 h2 {
-    position: absolute over;
+    position: absolute;
+    top: 15px;
+    left: 65px;
 }
 
 aside img {
@@ -54,10 +61,12 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 p {
     padding: 0;
+    margin: 1rem;
 }
 
 footer {
@@ -73,4 +82,8 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+}
+
+.indent {
+    padding-left: 2rem;
 }
