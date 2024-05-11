@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --primary-color: Black;
+    --secondary-color: Black;
+    --accent1-color: #E5E5E5;
+    --accent2-color: #14213D;
+
+    --heading-font:'Fairplay',fairplay;
+    --paragraph-font:'Roboto',roboto;
+
+    --nav-background-color: #FFFFFF;
+    --nav-link-color: #FCA311;
+    --nav-hover-link-color: #14213D;
+    --nav-hover-background-color: #FFFFFF;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+}
+
