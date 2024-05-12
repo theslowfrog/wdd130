@@ -19,6 +19,19 @@
     display: block;
     width: 100%;
     height: auto;
+    position: right;
+}
+
+.hero div {
+    position: relative;
+}
+
+.hero div h1 {
+    position: absolute;
+}
+
+.hero div article {
+    position: absolute;
 }
 
 h1 {
