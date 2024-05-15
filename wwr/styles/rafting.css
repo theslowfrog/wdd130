@@ -15,6 +15,10 @@
     --nav-hover-background-color: #FFFFFF;
 }
 
+p{
+    color: #14213D;
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -42,3 +46,6 @@ article {
     position: absolute;
 }
 
+article img {
+    float: right;
+}
