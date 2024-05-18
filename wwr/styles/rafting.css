@@ -73,7 +73,7 @@ p{
     background-color: rgba(130, 119, 119, 0.8); 
     padding: 5px;
     max-width: 780px; 
-    overflow: hidden;
+    #overflow: hidden;
     z-index: 1;
     padding: 1px;
   }
@@ -86,11 +86,11 @@ article img {
 .article-head {
     position: relative;
     top: 0px;
-    left: 170px;
-    margin-left: 0px;
-    margin-right: 0px;
+    left: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
     float: right;
-    width: 940px;
+    width: 780px;
     padding: 0px;
 }
 .article-head h2 {
@@ -112,14 +112,13 @@ header {
     position: relative;
     display: flex;
     align-items: center;
-    
 }
 .history h2 {
     position: absolute;
     font-family: roboto;
     font-size: 2rem;
     top: 10%;
-    right: 8%;
+    right: 35%;
     transform: translate(-50%, -50%);
     z-index: 1;
     background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a background color for better readability */
@@ -136,6 +135,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;    
+    margin-top: 100px;
 }
 .content p{
     line-height: 100%; 
@@ -149,7 +149,6 @@ header {
   }
 .adventures h2 {
     font-size: 2rem; 
-    font-weight: 300;
 }
   .adventures-heading {
     margin-top: 10px; 
@@ -164,12 +163,12 @@ header {
 .adventures-images figure {
     width: 150px;
 }
-.adventures-images img {
+.adventure-images {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
+    margin-bottom: 25px;
 }
+
 footer {
   background-color: #E5E5E5;
   color: white;
