@@ -54,7 +54,7 @@ p{
     justify-content: center;
     margin: 10px;
 }
-h1 {
+.hero h1 {
     position: absolute;
     top: 0px; 
     left: 250px;
@@ -62,7 +62,7 @@ h1 {
     font-size: 40px; 
     z-index: 1;   
 }
-article {
+.hero article {
     position: absolute;
     bottom: 200px; 
     top: 170px;
@@ -91,7 +91,14 @@ article img {
     padding: 0px;
 }
 .article-head h2 {
-    font-size: 2rem
+    font-size: 2rem;
+}
+.article-head img {
+    float: right;
+}
+.article-head p {
+    line-height: 100%; 
+    font-size: 1.3rem;
 }
 header {
     display: grid;
