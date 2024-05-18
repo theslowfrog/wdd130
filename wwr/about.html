@@ -2,58 +2,92 @@
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>About Us</title>
-
-        <meta name="author" content="Vanessa Christensen">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>White Water Rafting | About Us Page</title>
         <meta name="description" content="About Us Page">
+        <meta name="author" content="Vanessa Christensen">
+        <link rel="stylesheet" href="styles/rafting.css">
+        <link rel="stylesheet" href="styles/header.css">
+       
     </head>
     <body>
         <header>
-            <h1>About Us</h1>
-            <img src="images/logo.png" alt="Rafting Site Logo" width="200" height="200">
-            <nav>
-                <a style="text-decoration:none" href="index.html">Home</a>
-                <a style="text-decoration:none" href="about.html">About Us</a>
-                <a style="text-decoration:none" href="trips.html">Trips</a>
-                <a style="text-decoration:none" href="contact.html">Contact Us</a>
+            <div class="logo">
+                <img src="images/logo.png" alt="Rafting Site Logo" width="200" height="200">
+            </div>
+            <nav class="navigation">
+                   <a style="text-decoration:none" href="index.html">Home</a>
+                   <a style="text-decoration:none" href="about.html">About Us</a>
+                   <a style="text-decoration:none" href="trips.html">Trips</a>
+                   <a style="text-decoration:none" href="contact.html">Contact Us</a>
             </nav>
         </header>
         <main>
             <div class="hero">
                 <img src="images/hero.jpeg" alt="scenic">
-                <h1>Rafting Company Name</h1>
+                <h1>Rafting | White Water</h1>
                 <article>
+                    <div class="article-head">
+                        <h2 style="font-size: 2rem"> Join Us for an Adventure!</h2>
                     <img src="images/rafting6.png" alt="happy rafter" style="float: right;">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p style="line-height: 100%; font-size: 1.3rem;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </article>
                     </div>
-                    <section>
-                        <h2>History</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, voluptate! <br>
-                        Doloremque, itaque? Corporis incidunt odio unde magnam eum esse in obcaecati <br>
-                        totam omnis delectus! Rerum corrupti laboriosam nesciunt earum neque?</p>
-                    </section>
-                    <section>
-                        <h2>Adventure Awaits You!</h2>
-                            <img src="images/rafting2.jpeg" alt="4 people blue water">
-                            <img src="images/rafting3.jpeg" alt="large group with guide">
-                            <img src="images/rafting4.jpeg" alt="carrying raft">
+                    <section class="history">
+                        <h2 style="font-size: 2rem">History</h2>
+                        <div class="content">
+                            <p style="line-height: 100%; font-size: 1.3rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, voluptate!</p>
                             <img src="images/rafting5.jpeg" alt="aerial view">
-                            <img src="images/rafting.jpeg" alt="white water">
+                            <p style="line-height: 100%; font-size: 1.3rem;">totam omnis delectus! Rerum corrupti laboriosam nesciunt earum neque?</p>
+                        </div>
+                    </section>
+                    <section class="adventures">
+                        <h2 style="font-size: 2rem; font-weight: 300;">Adventure Awaits You!</h2>
+                    <div class="adventure-images">
+                        <figure>
+                            <img src="images/rafting2.jpeg" alt="4 people blue water"
+                            width="150"
+                            height="150">
+                        </figure>
+                        <figure>
+                            <img src="images/rafting3.jpeg" alt="large group with guide"
+                            width="150"
+                            height="150">
+                        </figure>
+                        <figure>
+                            <img src="images/rafting4.jpeg" alt="carrying raft"
+                            width="150"
+                            height="150">
+                        </figure>
+                        <figure>
+                            <img src="images/rafting5.jpeg" alt="aerial view"
+                            width="150"
+                            height="150">
+                        </figure>
+                        <figure>
+                            <img src="images/rafting.jpeg" alt="white water"
+                            width="150"
+                            height="150">
+                        </figure>
+                    </div>
                     </section>
         </main>
         <footer>
-            <p>&copy;2024 &#128128; Rafting Company | Vanessa Christensen &#128128;</p>
+            <p>&copy;2024 Rafting Company | Vanessa Christensen</p>
             <nav class="sociallinks">
-                <a href="https://facebook.com">
-                    <img src="images/facebook.svg" alt="Facebook">
+                <a href="https://facebook.com"><img class="picture" src="images/facebook.svg" alt="Facebook"
+                    width="40"
+                    height="40">
                 </a>
-                <a href="https://twitter.com">
-                    <img src="images/twitter.svg" alt="Twitter">              
+                <a href="https://twitter.com"><img class="picture"
+                    src="images/twitter.svg" alt="Twitter"
+                    width="40"
+                    height="40">          
                 </a>
-                <a href="https://instagram.com">
-                    <img src="images/instagram.svg" alt="instagram">
+                <a href="https://instagram.com"><img class="picture"
+                    src="images/instagram.svg" alt="instagram"
+                    width="40"
+                    height="40">
                 </a>
             </nav>
         </footer>
