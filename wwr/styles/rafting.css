@@ -90,7 +90,9 @@ article img {
     width: 940px;
     padding: 0px;
 }
-
+.article-head h2 {
+    font-size: 2rem
+}
 header {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -131,6 +133,10 @@ header {
     justify-content: center; 
     text-align: center; 
   }
+.adventures h2 {
+    font-size: 2rem; 
+    font-weight: 300;
+}
   .adventures-heading {
     margin-top: 10px; 
     justify-self: center;
