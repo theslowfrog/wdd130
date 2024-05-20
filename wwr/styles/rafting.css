@@ -84,6 +84,7 @@ article img {
     max-height: 60%;
 }
 .article-head {
+    color: #ffffff;
     position: relative;
     top: 0px;
     left: 10px;
@@ -92,6 +93,7 @@ article img {
     float: right;
     width: 780px;
     padding: 0px;
+    
 }
 .article-head h2 {
     font-size: 2rem;
@@ -100,6 +102,7 @@ article img {
     float: right;
 }
 .article-head p {
+    color: #ffffff;
     line-height: 100%; 
     font-size: 1.3rem;
 }
