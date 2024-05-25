@@ -54,7 +54,7 @@
                     <label for="Email"> Email: </label>
                     <input type="email" id="email" name="email">
 
-                    <form action="/action_page.php">
+                    <form>
                         <p>Purpose of the message:</p>
                         <input type="radio" id="general_inquiry" name="purpose" value="general_inquiry">
                         <label for="general_inquiry">General Inquiry</label><br>
@@ -63,12 +63,12 @@
                         <input type="radio" id="website_suggestion" name="purpose" value="website_suggestion">
                         <label for="website_suggestion">Website Suggestion</label>
                         <br>
-
+                    </form>
 
                     <label class="message" for="message"></label>
                     <textarea id="message" name="message" rows="4" placeholder="your message here"></textarea>    
                         <br>
-                        <form action="/action_page.php">
+                        <form>
                             <input type="checkbox" id="subscribe" name="subscribe" value="subscribe">
                             <label for="yes_subscribe"> Please subscribe me to the monthly newsletter</label><br>
                             <input type="submit_request" value="Submit Request">
