@@ -310,7 +310,12 @@ footer {
     height: 50px;
     text-decoration: none;
 }
-
+.form-item {
+    display: grid;
+    width: 400px;
+    line-height: 40px;
+    
+}
 form {
     width: 650px;
     margin: 0 auto;
