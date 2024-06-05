@@ -21,67 +21,69 @@
             </nav>
         </header>
         <main>
-          <h1>Contact Us</h1>
-
-          <h2>Send Us a Message</h2>
-          <fieldset>
-            <div class="form-item">
-                <label for="fullname">Full Name: </label>
-                <input type="text" id="fullname" name="fullname">
-                <br>
-                <label for="email"> Email: </label>
-                <input type="email" id="email" name="email">
-
-                <form>
-                    <p>Purpose of the message:</p>
-                    <input type="radio" id="general_inquiry" name="purpose" value="general_inquiry">
-                    <label for="general_inquiry">General Inquiry</label><br>
-                    <input type="radio" id="reservation_question" name="purpose" value="reservation_question">
-                    <label for="reservation_question">Reservation Question</label><br>
-                    <input type="radio" id="website_suggestion" name="purpose" value="website_suggestion">
-                    <label for="website_suggestion">Website Suggestion</label>
-                    <br>
-                </form>
-
-                <label class="message" for="message"></label>
-                <textarea id="message" name="message" rows="4" placeholder="your message here"></textarea>    
-                    <br>
-                    <form>
-                        <input type="checkbox" id="subscribe" name="subscribe" value="subscribe">
-                        <label for="subscribe"> Please subscribe me to the monthly newsletter</label><br>
-                        <button type="submit" value="Submit Request">Submit Request</button>
-                    </form>
-                      
-            </div>
-        </fieldset>
-        <p>White Water Rafting</p>
-        <p>999-999-9999</p>
-        <p>Email: <a href="mailto:">sadf</a></p>
-        <div class="happy-employees">
-            <figure>
-                <img src="images/happyemployee.jpeg" alt="happy employee"
-                height="200px">
-                <figcaption>Amy</figcaption>
-            </figure>
-            <figure>
-                <img src="images/happyemployee1.jpeg" alt="happy employee"
-                height="200px">
-                <figcaption>Jennifer</figcaption>
-            </figure>
-            <figure>
-                <img src="images/happyemployee2.jpg" alt="happy employee"
-                height="200px">
-                <figcaption>Vanessa</figcaption></figure>
-            </div>
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d92316.8138248186!2d-118.50482753855476!3d47.93418499498666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1716559853690!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        
-
-    
-           
-        
-
+            <h1 class="help">How can we help?</h1>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="form-item column2">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <div class="form-item column1">
+                        <p>What is the purpose of your inquiry?</p>
+                        <input type="radio" id="purpose_gi" name="purpose" value="generalinquiry">
+                        <label for="purpose_gi">General Inquiry</label>
+                        <input type="radio" id="purpose_rq" name="purpose" value="reservatoinrequest">
+                        <label for="purpose_rq">Reservation Request</label>
+                        <input type="radio" id="purpose_ws" name="purpose" value="websitesuggestion">
+                        <label for="purpose_ws">Website Suggestion</label>
+                    </div>
+                    <label class="feedback" for="feedback">Message:</label>    
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="I would like to make a reservation..."></textarea>
+                    <div class="form-item column1">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                    </div>
+                </fieldset>
+                <div class="submit">
+                <button type="submit" class="submit-button">Submit Request</button>
+                </div>
+            </form>
+            <section class="employee">
+                <h2>Meet our River Guides</h2>
+                <div class="image-grid">
+                    <figure>
+                        <img src="images/happyemployee.jpeg" alt="Karen, Head Raft Guide">
+                        <figcaption>Karen | Head Raft Guide</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/happyemployee1.jpeg" alt="Stephanie, Junior Raft Guide">
+                        <figcaption>Stephanie | Junior Raft Guide</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/happyemployee2.jpg" alt="Vanessa, Senior Raft Guide">
+                        <figcaption>Vanessa | Senior Raft Guide</figcaption>
+                    </figure>
+                    
+                </div>
+            </section>
+            <section class="company-information">
+                <h3>Contact Us</h3>
+                <p class="address">123 Lake Washington Dr<br>
+                Agate, Washington 98584</p>
+                <p class="phone-number">(206) 999-9999</p>
+                <p class="email">rapidventuresrafting@outlook.com</p>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d160728.1963986322!2d-122.8713555084977!3d47.209766784782026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1717426407140!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
         </main>
         <footer>
             <p>&copy;2024 Rapid Ventures Rafting | Vanessa Christensen</p>
