@@ -469,7 +469,7 @@ tbody > tr:nth-of-type(even) {
 .btn {
     bottom: 20px;
     right: 20px;
-    background-color: white;
+    background-color: black;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
