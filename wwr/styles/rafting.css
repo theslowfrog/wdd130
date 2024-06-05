@@ -59,7 +59,7 @@ header {
 body {
     font-family: var(--paragraph-font);
     color: #393939;
-    max-width: 960px;
+    max-width: 100%;
     padding: 0;
     margin: 0;
 }
@@ -82,7 +82,7 @@ body {
 .hero img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 800px;
 }
 
 .happy-block-overlay {
@@ -443,4 +443,43 @@ td:last-of-type {
 
 tbody > tr:nth-of-type(even) {
     background-color: #eee;
+}
+.company-name {
+    position: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(16, 15, 15); /* Customize the title color */
+    font-size: 24px; /* Customize the font size */
+    /* Add any other styling as needed */
+}
+.image-container {
+    position: relative;
+}
+
+.title, .btn {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    /* Customize other styles as needed */
+}
+
+.title {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    bottom: 20px;
+    right: 20px;
+    background-color: #555;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: black;
 }
