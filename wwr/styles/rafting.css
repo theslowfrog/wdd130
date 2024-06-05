@@ -3,7 +3,7 @@
 :root {
     --primary-color: Black;
     --secondary-color: rgb(52, 46, 46);
-    --accent1-color: #573b3b;
+    --accent1-color: black;
     --accent2-color: #04070d;
     
     --heading-font:'Fairplay',fairplay;
@@ -54,6 +54,7 @@ header {
     width: 150px;
     height: auto;
 }
+
 
 body {
     font-family: var(--paragraph-font);
@@ -316,6 +317,7 @@ footer {
     line-height: 40px;
     
 }
+
 form {
     width: 650px;
     margin: 0 auto;
